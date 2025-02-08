@@ -1,0 +1,68 @@
+
+baseurl = "https://yuanyuan229.github.io/"
+languageCode = "en-us"
+title = "Gwen's Blog"
+theme = 'papermod'
+pagination.pagerSize = 10
+DisqusShortname = "yyge"
+Copyright = "© Gwen G. 2025"
+canonifyurls = true
+cover = "images/3.jpg"
+image = "images/3.jpg"
+pluralizelisttitles = false
+
+[params]
+  profileMode.subtitle= "数据、游戏开发、艺术、观察世界｜记录沿途的思考"
+  cover = "images/3.jpg"
+  profileMode.imageUrl = "images/3.jpg"
+  author = "Gwen G."
+  authorlocation = "Shanghai, China"
+  bio= ""
+  logo = "images/1.png"
+  githubName = "yuanyuan229"
+  linkedinName = "yyge"
+  email = "yyge@ucdavis.edu"
+  instagramName = "dddaisy29"
+  hideHUGOSupport = false
+  profileMode.enabled = true
+
+[profileMode]
+buttons = [
+  { name = "Archive", url = "/archive" },
+  { name = "Github", url = "https://github.com/Yuanyuan229" }
+]
+
+  
+
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  identifier = "home"
+  pre = "<br />"
+  url = "/"
+
+
+[[menu.main]]
+  name = "Post"
+  identifier = "post"
+  weight = 2
+  pre = "<br />"
+  url = "/post"
+
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  pre = "<br />"
+  url = "/about"
+
+
+ 
+  
+[permalinks]
+  post = "/:slug/"
+
+[sitemap]
+  ChangeFreq = ""
+  Filename = "sitemap.xml"
+  Priority = "-1"
+
