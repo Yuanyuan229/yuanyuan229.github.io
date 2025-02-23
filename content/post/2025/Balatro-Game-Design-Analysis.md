@@ -43,9 +43,9 @@ LocalThunk 在 Balatro 中的设计策略通过结构化的游戏机制、明确
 
 | 盲注选择 | 回合游戏 | 商店购买 |
 |------|-----|-----|
-| - 进入每个底注，会展示该底注的小盲注、大盲注和boss盲注  | - 从牌组中抽取手牌，根据手牌进行出牌或弃牌的选择 | - 小丑牌（牌包） ｜
-| - 小盲注和大盲注可选择跳过，boss盲注必须游戏 | - 在小丑牌/游戏牌/牌型的加成下，使出牌总分超过回合目标 | - 塔罗/星球/幻灵/游戏牌（牌包）｜
-| - 跳过盲注时可获得标签奖励 | - 结算剩余的出/弃牌次数及优惠券，获得收入 | - 优惠券 ｜
+| - 进入每个底注，会展示该底注的小盲注、大盲注和boss盲注  | - 从牌组中抽取手牌，根据手牌进行出牌或弃牌的选择 | - 小丑牌（牌包）|
+| - 小盲注和大盲注可选择跳过，boss盲注必须游戏 | - 在小丑牌/游戏牌/牌型的加成下，使出牌总分超过回合目标 | - 塔罗/星球/幻灵/游戏牌（牌包）|
+| - 跳过盲注时可获得标签奖励 | - 结算剩余的出/弃牌次数及优惠券，获得收入 | - 优惠券|
 
 
 ## 小丑牌的成功要素
@@ -82,14 +82,17 @@ Balatro 采用了让人想起经典视频游戏的复古美学，利用像素艺
 - boss标签针对玩家卡组
 - 游戏牌、小丑牌、消耗牌共享“牌”的概念，因此可以共享“牌型”的加成方式（而且牌型映射了实际生活中的卡片的质地感，在视觉效果上的变化很吸引人）
 ## 关于平衡性和数值设计
-以下问题，从开发策划的角度去反推当时LocalThunk为什么如此设计，可能会有一点收获？
+1. 以下问题，从开发策划的角度去反推当时LocalThunk为什么如此设计，可能会有一点收获？
 - 消耗牌中为什么要区分塔罗牌、幻灵牌的层级设计
 - 塔罗牌、幻灵牌的效果设计
 - 优惠券的递进关系
 - 随着底注升高，基础筹码的通胀数值设计
 - 小丑牌的类型、效果设计
 - 盲注/牌注等的减益效果的设计
-从访谈中可以看出他的一些设计理念：通过测试和调整来达到平衡状态，而不是试图从一开始就设计一个完美平衡的系统。
+2. 从访谈中可以看出他的一些设计理念：通过测试和调整来达到平衡状态，而不是试图从一开始就设计一个完美平衡的系统。
+![balatro-interview1](../../images/balatro1.png)
+![balatro-interview2](../../images/balatro2.png)
+![balatro-interview3](../../images/balatro3.png)
 https://rogueliker.com/balatro-interview/
 https://www.reddit.com/r/balatro/comments/1hy86g9/balatro_faq_read_before_posting/
 
@@ -99,11 +102,11 @@ https://www.reddit.com/r/balatro/comments/1hy86g9/balatro_faq_read_before_postin
 - 正式发售后快速多平台上线
 可参考 https://www.brothers-in-gaming.com/post/balatro
 
-参考：
-1. 从Balatro小丑牌的成功说起：浅谈rogue的核心体验与设计 https://www.gameres.com/905305.html
-2. GameRes. "不是天才，怎么抄《小丑牌》？——从《小丑牌》简单拆解Roguelike的系统和体验." GameRes游资网. https://www.gameres.com/904990.html
-3. 和Perplexity AI.的问答. https://www.perplexity.ai
-4. LocalThunk在Reddit.论坛答疑. https://www.reddit.com
-5. Balatro: How a solo developer sold more than 1M copies in one month https://www.brothers-in-gaming.com/post/balatro
-6. Balatro Interview – LocalThunk on an “indie take on solitaire with a poker coat of paint” https://rogueliker.com/balatro-interview/
-7. 《balatro（小丑牌）》游戏分析 https://www.kisence.com/2024/03/02/balatroxiao-chou-pai-you-xi-fen-xi/
+> 参考：
+> 1. 从Balatro小丑牌的成功说起：浅谈rogue的核心体验与设计 https://www.gameres.com/905305.html
+> 2. GameRes. "不是天才，怎么抄《小丑牌》？——从《小丑牌》简单拆解Roguelike的系统和体验." GameRes游资网. https://www.gameres.com/904990.html
+> 3. 和Perplexity AI.的问答. https://www.perplexity.ai
+> 4. LocalThunk在Reddit.论坛答疑. https://www.reddit.com
+> 5. Balatro: How a solo developer sold more than 1M copies in one month https://www.brothers-in-gaming.com/post/balatro
+> 6. Balatro Interview – LocalThunk on an “indie take on solitaire with a poker coat of paint” https://rogueliker.com/balatro-interview/
+> 7. 《balatro（小丑牌）》游戏分析 https://www.kisence.com/2024/03/02/balatroxiao-chou-pai-you-xi-fen-xi/
